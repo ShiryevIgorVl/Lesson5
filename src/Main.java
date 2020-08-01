@@ -10,7 +10,7 @@ public class Main {
         persArray[3] = new Employee("Смирнов Евгений", "вед. нженер", "12345@yandex.ru", 4234567, 35, 35);
         persArray[4] = new Employee("Матвеев Денис", "нженер 2 кат.", "12346@yandex.ru", 6234567, 28, 34);
         for (int i = 0; i < persArray.length; i++) {
-            if (persArray[i].age >= 40) {
+            if (persArray[i].age > 40) {
                 persArray[i].printEmp();
             }
         }
